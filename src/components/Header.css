@@ -1,0 +1,58 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #0F6AF6;
+  }
+  
+  .total-value {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .value-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .value-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .value-amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 24px;
+    }
+  
+    .total-value {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .value-item {
+      width: 100%;
+    }
+  }
+  
+  
